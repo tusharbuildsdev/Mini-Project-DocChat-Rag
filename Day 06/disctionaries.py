@@ -30,10 +30,10 @@ prices = {
     "juice":100,
     "sandwich":150
 }
-order = [coffee,juice]
+order = ["coffee" , "juice"]
 
 total_bill = 0
 for item in order:
     total_bill +=prices.get(item)
 
-print("Your total bill is :" total_bill)
+print("Your total bill is:" ,total_bill)
