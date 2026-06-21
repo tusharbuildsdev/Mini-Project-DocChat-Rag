@@ -7,11 +7,11 @@ class Dog:
         self.name = name
         self.breed = breed
         
-tannie = Dog("tannie","Retriver")
+Shalu = Dog("Shalu","Retriver")
 kallu = Dog("Kallu","Desi")
 
 kallu.name = " Dogesh"
-print(tannie.name, tannie.breed)
+print(Shalu.name, Shalu.breed)
 
 #create a class student - name, roll number, email
 
