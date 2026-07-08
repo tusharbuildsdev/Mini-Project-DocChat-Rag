@@ -9,7 +9,7 @@ st.set_page_config(page_title="Groq Chat", page_icon="💬")
 
 client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 
-st.title("💬 Chat with Groq")
+st.title(" Chat with Groq")
 
 model = st.sidebar.selectbox(
     "Model",
