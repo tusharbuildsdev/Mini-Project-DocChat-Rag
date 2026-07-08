@@ -17,3 +17,11 @@ def read_line_by_line() -> None:
     with open(SAMPLE, "r", encoding="utf-8") as f:
         for number, line in enumerate(f, start=1):
             print(f"  line {number}: {line.rstrip()}")
+
+def write_sample() -> None:
+    with open(SAMPLE, "w", encoding="utf-8") as f:
+        f.write("Line 1: Chroma stores vectors.\n")
+        f.write("Line 2: Embeddings turn text into meaning.\n")
+
+write_sample()
+print()
