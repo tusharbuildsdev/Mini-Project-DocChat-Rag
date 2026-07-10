@@ -1,3 +1,0 @@
-This is a dummy file with dummy data 
-This is a text in a new line 
-Here goes one more line 
