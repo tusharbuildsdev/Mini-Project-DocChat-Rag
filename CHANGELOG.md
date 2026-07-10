@@ -1,0 +1,11 @@
+v1.0
+
+Initial Release
+
+PDF Support
+
+RAG
+
+ChromaDB
+
+Groq
